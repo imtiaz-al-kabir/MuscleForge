@@ -6,7 +6,7 @@ const TrainingSection = () => {
   return (
     <section className=" pt-20 px-4 md:px-8 max-w-[1700px] mx-auto w-full relative z-10">
       
-      {/* Decorative Dots Pattern */}
+     
       <CustomPattern className="absolute top-[80px] right-[5%] opacity-40 pointer-events-none -rotate-90" 
       
       rotation={360} 
@@ -55,7 +55,7 @@ const TrainingSection = () => {
         <div className="lg:w-[58%] flex flex-col justify-center py-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             
-            {/* Column 1: Training Focus Areas */}
+          
             <div className="pt-4">
               <h3 className="text-white font-medium text-[22px] mb-10 tracking-widest capitalize">Training Focus Areas:</h3>
               

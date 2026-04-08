@@ -7,9 +7,8 @@ import CustomPattern from "./CustomPattern";
 const SpecialtySection = () => {
   return (
     <div className="relative xl:absolute xl:top-[280px] xl:-left-1 z-30 w-full xl:w-[290px] pt-10 xl:pt-4 px-4 xl:px-0 flex justify-center xl:justify-start">
-      {/* The inner green box using Vector 3.png as background */}
       <div className="relative w-full max-w-[376px] min-h-[540px] md:h-[500px] p-6 md:p-8 pb-10 flex flex-col justify-center xl:left-4">
-        {/* Background Image Setup with Inner Glow */}
+        {/* Background Image  */}
         <div className="absolute inset-0 z-0 drop-shadow-2xl overflow-hidden rounded-[30px] md:rounded-none">
           <img
             src={vectorBg}
@@ -18,9 +17,7 @@ const SpecialtySection = () => {
           />
         </div>
 
-        {/* Content Layer */}
         <div className="relative z-10">
-          {/* Custom Dot Pattern */}
           <CustomPattern
             className="absolute top-1 -left-4"
             opacity={0.4}
@@ -68,7 +65,7 @@ const SpecialtySection = () => {
             </div>
 
             <div
-              className="bg-white/5 hover:bg-white/20 h-[0px] md:h-[80px] transition-all duration-300 border border-white/20 rounded-[20px] p-1 flex items-center gap-2 cursor-pointer group backdrop-blur-md shadow-lg
+              className="bg-white/5 hover:bg-white/20 h-[60px] md:h-[80px] transition-all duration-300 border border-white/20 rounded-[20px] p-1 flex items-center gap-2 cursor-pointer group backdrop-blur-md shadow-lg
             rounded-b-[50px] : 0.5rem (8px)
             hover:shadow-white/5"
             >

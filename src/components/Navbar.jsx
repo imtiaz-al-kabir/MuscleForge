@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Middle Navigation Pill (Desktop) */}
+      {/* Middle Navigation */}
       <div className="hidden xl:flex gap-5 max-w-3xl h-[60px] bg-[#050505] text-white rounded-[50px] items-center justify-between pl-6 md:pl-12 pr-2 md:pr-4 border-2 border-white shadow-2xl mx-8">
         
         <div className="flex items-center gap-6 md:gap-12 shrink-0">
@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Right Side: Register + Hamburger */}
+      {/* Register  */}
       <div className="flex items-center gap-4 shrink-0">
         <Link to="/register" className="bg-[#71AC16] hover:bg-[#66a324] text-white uppercase tracking-[0.1em] font-black py-2.5 px-5 md:py-4 md:px-10 text-xs md:text-lg rounded-[40px] transition-all shadow-lg whitespace-nowrap">
           REGISTER
@@ -51,7 +51,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="fixed inset-0 bg-[#050505]/95 z-[200] flex flex-col items-center justify-center gap-8 xl:hidden p-10">
           <button 

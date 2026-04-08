@@ -27,7 +27,7 @@ const HeroSection = () => {
       <div
         className="absolute inset-0 z-[1] pointer-events-none overflow-hidden"
         style={{
-          maskImage: "none", // Reset for mobile
+          maskImage: "none", 
           WebkitMaskImage: "none",
           maskSize: "100% 100%",
           WebkitMaskSize: "100% 100%",
@@ -56,8 +56,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* ── POWER YOUR POTENTIAL text overlay (right half only) ── */}
-      {/* ── POWER YOUR POTENTIAL text overlay (Back to original image) ── */}
+     
       <div className="absolute  inset-0 z-[2] pointer-events-none flex items-center justify-center lg:justify-end px-6  lg:pr-[13%]">
         <img
           src={powerText}
@@ -81,7 +80,7 @@ const HeroSection = () => {
         className="relative z-10 flex flex-col justify-between h-full"
         style={{ minHeight: "clamp(500px, 90vh, 950px)" }}
       >
-        {/* Top: social follow links (centered on mobile, right on desktop) */}
+       
         <div className="pt-24 md:pt-40 px-6 md:px-14 lg:p w-full lg:w-fit flex flex-col items-center lg:items-start justify-center lg:justify-start gap-3">
           <div className="flex items-center flex-wrap gap-3 md:gap-4 text-white/70 bg-white/5 md:bg-transparent px-5 py-3 md:p-0 rounded-2xl backdrop-blur-xl md:backdrop-blur-none border border-white/20 md:border-none shadow-2xl">
             <span className="text-white font-bold tracking-widest text-base md:text-2xl whitespace-nowrap">
@@ -118,7 +117,7 @@ const HeroSection = () => {
           />
         </div>
 
-        {/* Bottom: Shop Now + Location buttons (Centered on mobile, RIGHT on desktop to avoid SpecialtySection overlap) */}
+      
         <div className="pb-20 px-6 md:px-14 lg:px-14 flex flex-row flex-wrap gap-3 md:ml-40 md:gap-5 items-center justify-center  relative">
           <button className="h-[60px] md:h-[70px] lg:h-[80px] px-6 md:px-10 bg-[#050505] lg:bg-black/40 border border-white text-white rounded-[16px] md:rounded-[20px] flex items-center gap-3 text-[13px] md:text-[20px] font-bold tracking-widest uppercase hover:text-[#7ac231] hover:border-[#7ac231] transition-all backdrop-blur-xl shadow-2xl whitespace-nowrap group overflow-hidden relative">
             <span className="relative z-10 flex items-center gap-3">
@@ -136,7 +135,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Right-side dot pattern (desktop only) */}
+     
       <CustomPattern
         className="hidden lg:block absolute top-32 right-1 z-20 opacity-40 
       pointer-events-none"

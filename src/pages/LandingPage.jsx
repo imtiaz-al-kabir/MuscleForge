@@ -7,12 +7,7 @@ import TestimonialsSection from "../components/TestimonialsSection";
 import TrainingSection from "../components/TrainingSection";
 
 const LandingPage = () => {
-  const dotMatrix = [
-    [1, 1, 1],
-    [1, 1, 1],
-    [1, 1, 1],
-    [1, 1, 1],
-  ];
+  
 
   return (
     <div className="min-h-screen bg-white relative font-sans overflow-x-hidden pt-4 px-4 pb-20">

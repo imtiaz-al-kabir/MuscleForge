@@ -103,7 +103,7 @@ const ProductsSection = () => {
             key={product.id}
             className="bg-[#050505] rounded-[40px] p-4 flex flex-col hover:-translate-y-2 transition-transform duration-300 shadow-xl border border-[#1a1a1a]"
           >
-            {/* Image Container with specific colored background */}
+            {/* Image Container  */}
             <div
               className={`h-[320px] bg-black rounded-[32px] mb-8 relative flex items-center justify-center overflow-hidden`}
             >
@@ -141,7 +141,7 @@ const ProductsSection = () => {
                 </div>
               </div>
 
-              {/* Add to cart perfectly squared green button */}
+             
               <button className="w-14 h-14 bg-brand hover:bg-brand-dark rounded-2xl flex items-center justify-center transition-colors shrink-0 shadow-lg shadow-brand/20">
                 <Plus
                   size={24}

@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
   return (
     <section className="w-full relative z-10">
       <div className="py-20 px-4 md:px-8 max-w-[1700px] mx-auto w-full relative">
-        {/* Decorative Dots Pattern */}
+       
         <CustomPattern className="absolute top-[60px] right-[5%] opacity-40 pointer-events-none rotate-180"
         
         rotation={-180}

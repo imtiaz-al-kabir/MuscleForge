@@ -61,7 +61,7 @@ const FooterSection = () => {
       {/* Footer Details */}
       <footer className="pt-8 pb-10 px-4 md:px-8 max-w-[1700px] mx-auto w-full relative z-10">
         
-        {/* Decorative Dots Pattern Above Footer (Removed as requested) */}
+       
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 my-16 border-t border-gray-200 pt-12">
           {/* About (wider col) */}
@@ -104,7 +104,7 @@ const FooterSection = () => {
             </div>
           </div>
 
-          {/* Contact Info (wider col) */}
+          {/* Contact  */}
           <div className="md:col-span-2 lg:col-span-4 pl-4">
             <h5 className="text-black font-bold text-[17px] tracking-wide mb-8">Contact Info</h5>
             <div className="flex flex-col gap-4">
