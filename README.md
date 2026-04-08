@@ -39,13 +39,13 @@ To get this project up and running on your local machine, follow these steps:
 
 ## Screenshots
 
-*(Add your screenshots here)*
+
 
 - **Landing Page:**
-  ![Landing Page Placeholder](https://via.placeholder.com/800x400?text=Landing+Page+Screenshot)
+  ![Landing Page Placeholder](https://i.ibb.co.com/C5f8nDKy/image.png)
 
 - **Products Section:**
-  ![Products Placeholder](https://via.placeholder.com/800x400?text=Products+Section)
+  ![Products Placeholder](https://i.ibb.co.com/1YgBbdJG/image.png)
 
 - **Training section:**
-  ![Training Placeholder](https://via.placeholder.com/800x400?text=Training+Section)
+  ![Training Placeholder](https://i.ibb.co.com/LdV2h9m2/image.png)
