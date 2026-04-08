@@ -19,15 +19,15 @@ const HeroSection = () => {
         className="absolute inset-0 w-full h-full object-cover lg:object-fill z-0 select-none pointer-events-none"
       />
 
-      {/* ── Creative Flare: Radial Gradient Pop (Mobile Only) ── */}
+
       <div className="absolute top-[20%] left-[-10%] w-[300px] h-[300px] bg-[#7ac231]/20 rounded-full blur-[100px] pointer-events-none lg:hidden animate-soft-pulse z-0" />
       <div className="absolute bottom-[10%] right-[-10%] w-[250px] h-[250px] bg-[#7ac231]/10 rounded-full blur-[80px] pointer-events-none lg:hidden animate-soft-pulse z-0" />
 
-      {/* ── Athlete image (right side, clipped to shape) ── */}
+
       <div
         className="absolute inset-0 z-[1] pointer-events-none overflow-hidden"
         style={{
-          maskImage: "none", 
+          maskImage: "none",
           WebkitMaskImage: "none",
           maskSize: "100% 100%",
           WebkitMaskSize: "100% 100%",
@@ -56,7 +56,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-     
+
       <div className="absolute  inset-0 z-[2] pointer-events-none flex items-center justify-center lg:justify-end px-6  lg:pr-[13%]">
         <img
           src={powerText}
@@ -67,7 +67,7 @@ const HeroSection = () => {
         />
       </div>
 
-      {/* ── Floating Decorative Elements (Mobile specific) ── */}
+
       <div className="lg:hidden absolute top-[15%] right-[10%] z-[5] opacity-20 text-white animate-float pointer-events-none">
         <Zap size={40} strokeWidth={1} />
       </div>
@@ -75,12 +75,11 @@ const HeroSection = () => {
         <Dumbbell size={50} strokeWidth={1} />
       </div>
 
-      {/* ── Main content layer ── */}
       <div
         className="relative z-10 flex flex-col justify-between h-full"
         style={{ minHeight: "clamp(500px, 90vh, 950px)" }}
       >
-       
+
         <div className="pt-24 md:pt-40 px-6 md:px-14 lg:p w-full lg:w-fit flex flex-col items-center lg:items-start justify-center lg:justify-start gap-3">
           <div className="flex items-center flex-wrap gap-3 md:gap-4 text-white/70 bg-white/5 md:bg-transparent px-5 py-3 md:p-0 rounded-2xl backdrop-blur-xl md:backdrop-blur-none border border-white/20 md:border-none shadow-2xl">
             <span className="text-white font-bold tracking-widest text-base md:text-2xl whitespace-nowrap">
@@ -103,7 +102,7 @@ const HeroSection = () => {
               className="cursor-pointer hover:text-[#7ac231] transition-colors"
             />
           </div>
-          {/* Pattern at the bottom of follow on */}
+
           <CustomPattern
             className="opacity-100 mt-1"
             rotation={18}
@@ -117,7 +116,7 @@ const HeroSection = () => {
           />
         </div>
 
-      
+
         <div className="pb-20 px-6 md:px-14 lg:px-14 flex flex-row flex-wrap gap-3 md:ml-40 md:gap-5 items-center justify-center  relative">
           <button className="h-[60px] md:h-[70px] lg:h-[80px] px-6 md:px-10 bg-[#050505] lg:bg-black/40 border border-white text-white rounded-[16px] md:rounded-[20px] flex items-center gap-3 text-[13px] md:text-[20px] font-bold tracking-widest uppercase hover:text-[#7ac231] hover:border-[#7ac231] transition-all backdrop-blur-xl shadow-2xl whitespace-nowrap group overflow-hidden relative">
             <span className="relative z-10 flex items-center gap-3">
@@ -135,7 +134,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-     
+
       <CustomPattern
         className="hidden lg:block absolute top-32 right-1 z-20 opacity-40 
       pointer-events-none"

@@ -7,22 +7,19 @@ import TestimonialsSection from "../components/TestimonialsSection";
 import TrainingSection from "../components/TrainingSection";
 
 const LandingPage = () => {
-  
-
   return (
     <div className="min-h-screen bg-white relative font-sans overflow-x-hidden pt-4 px-4 pb-20">
-      {/* Background Patterns */}
-      {/*  */}
-
       <main className="relative z-10 w-full max-w-7xl mx-auto">
         <Navbar />
+        <div className="relative w-full">
+          <HeroSection />
+          <SpecialtySection />
+        </div>
 
-        <HeroSection />
-        <SpecialtySection />
         <ProductsSection />
         <TrainingSection />
         <TestimonialsSection />
-      <FooterSection />
+        <FooterSection />
       </main>
     </div>
   );
